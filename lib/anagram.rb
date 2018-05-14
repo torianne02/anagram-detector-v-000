@@ -14,9 +14,4 @@ class Anagram
     end
     return matches
   end
-    # for word in possible_anagrams:
-    #   word.sort()
-    #   if word == initial_word:
-    #     matches += word
-    # return matches
 end
