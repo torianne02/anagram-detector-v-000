@@ -8,7 +8,7 @@ class Anagram
   def match(possible_anagrams)
     matches = []
     possible_anagrams.each do |anagram_word|
-      if anagram_word.sort == @word.sort
+      if anagram_word.sort_by {|a, b| a <=> b} == @word.sort_by {|a, b| a <=> b}
         matches += anagram_word
       end
     end
