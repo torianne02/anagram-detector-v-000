@@ -9,7 +9,7 @@ class Anagram
     matches = []
     possible_anagrams.each do |anagram_word|
       if anagram_word.split('').sort.join == @word.split('').sort.join
-        matches += anagram_word
+        matches << anagram_word
       end
     end
     return matches
