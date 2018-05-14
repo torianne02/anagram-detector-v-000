@@ -13,7 +13,7 @@ class Anagram
       end
     end
     return matches
-  end 
+  end
     # for word in possible_anagrams:
     #   word.sort()
     #   if word == initial_word:
